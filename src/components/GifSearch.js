@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
 
 
-
+//class component
+//handles submit form, no longer a "presentational component"
 class GifSearch extends Component {
     state = {
         query: ""
@@ -24,7 +25,7 @@ class GifSearch extends Component {
             </div>
         )
     }
-    
+
 }
 
 export default GifSearch
