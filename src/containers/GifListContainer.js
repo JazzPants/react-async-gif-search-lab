@@ -5,6 +5,7 @@ import GifSearch from '../components/GifSearch'
 //class component 
 //import React, {Component} from 'react'
 //class GifListContainer extends Component
+//extends from react, so has access to constructor, state, and lifecycle methods
 //OR:
 class GifListContainer extends React.Component {
 
